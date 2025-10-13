@@ -44,7 +44,6 @@ TARGET_SUPPORTS_BLUR := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_NAME := lineage_beyond2lte
 PRODUCT_NAME := crdroid_beyond2lte
 PRODUCT_DEVICE := beyond2lte
 PRODUCT_BRAND := samsung
