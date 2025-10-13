@@ -33,11 +33,19 @@ TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 3040
 TARGET_SCREEN_WIDTH := 1440
 
+#crDroid flags
+IS_PHONE := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_SUPPORTS_BLUR := true
+
 ## Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_NAME := lineage_beyond2lte
+PRODUCT_NAME := crdroid_beyond2lte
 PRODUCT_DEVICE := beyond2lte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G975F
