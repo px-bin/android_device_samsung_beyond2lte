@@ -30,6 +30,9 @@ PRODUCT_COPY_FILES += \
 # Display
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display/display_id_4633128672291735937.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4633128672291735937.xml
+# Disable Matlog
+TARGET_DISABLE_MATLOG := true
+
 #Sign Builds
 -include vendor/lineage-priv/keys/keys.mk
 
